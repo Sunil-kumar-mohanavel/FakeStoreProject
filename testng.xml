@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="FakeStoreAPI_TestSuite" verbose="1" parallel="false">
+
+ 
+
+    <!-- Base Configuration -->
+    <parameter name="baseURL" value="https://fakestoreapi.com"/>
+
+    <test name="UserManagementTests">
+        <classes>
+            <class name="Tests.UserAPITests"/>
+        </classes>
+    </test>
+
+    
+
+</suite>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-10-04T23:45:07 IST" name="Default suite" finished-at="2025-10-04T23:45:14 IST" duration-ms="6686">
+    <groups>
+    </groups>
+    <test started-at="2025-10-04T23:45:07 IST" name="Default test" finished-at="2025-10-04T23:45:14 IST" duration-ms="6686">
+      <class name="Tests.ProductAPITests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.ProductAPITests@5dcb4f5f]" started-at="2025-10-04T23:45:07 IST" name="setup" finished-at="2025-10-04T23:45:08 IST" duration-ms="810" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="PC_01_AddProduct()[pri:1, instance:Tests.ProductAPITests@5dcb4f5f]" started-at="2025-10-04T23:45:08 IST" name="PC_01_AddProduct" finished-at="2025-10-04T23:45:10 IST" duration-ms="2589" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PC_01_AddProduct -->
+        <test-method signature="PC_02_EditProduct()[pri:2, instance:Tests.ProductAPITests@5dcb4f5f]" started-at="2025-10-04T23:45:11 IST" name="PC_02_EditProduct" finished-at="2025-10-04T23:45:11 IST" duration-ms="401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PC_02_EditProduct -->
+        <test-method signature="PC_04_SearchProduct()[pri:3, instance:Tests.ProductAPITests@5dcb4f5f]" started-at="2025-10-04T23:45:11 IST" name="PC_04_SearchProduct" finished-at="2025-10-04T23:45:12 IST" duration-ms="1008" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PC_04_SearchProduct -->
+        <test-method signature="PC_05_FilterProducts()[pri:4, instance:Tests.ProductAPITests@5dcb4f5f]" started-at="2025-10-04T23:45:12 IST" name="PC_05_FilterProducts" finished-at="2025-10-04T23:45:13 IST" duration-ms="932" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PC_05_FilterProducts -->
+        <test-method signature="PC_06_InvalidSearch()[pri:5, instance:Tests.ProductAPITests@5dcb4f5f]" started-at="2025-10-04T23:45:13 IST" name="PC_06_InvalidSearch" finished-at="2025-10-04T23:45:13 IST" duration-ms="401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PC_06_InvalidSearch -->
+        <test-method signature="PC_03_DeleteProduct()[pri:6, instance:Tests.ProductAPITests@5dcb4f5f]" started-at="2025-10-04T23:45:13 IST" name="PC_03_DeleteProduct" finished-at="2025-10-04T23:45:14 IST" duration-ms="368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PC_03_DeleteProduct -->
+      </class> <!-- Tests.ProductAPITests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
