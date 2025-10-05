@@ -3,12 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Tests.ProductAPITests">
+      <class name="Tests.UserAPITests">
         <methods>
+          <include name="tearDownReport"/>
+          <include name="UM_03_NewUserRegistration"/>
+          <include name="UM_01_ValidLogin"/>
           <include name="setup"/>
-          <include name="PC_04_SearchProduct"/>
         </methods>
-      </class> <!-- Tests.ProductAPITests -->
+      </class> <!-- Tests.UserAPITests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

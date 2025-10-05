@@ -1,17 +1,42 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 <suite name="FakeStoreAPI_TestSuite" verbose="1" parallel="false">
 
- 
-
     <!-- Base Configuration -->
     <parameter name="baseURL" value="https://fakestoreapi.com"/>
 
-    <test name="UserManagementTests">
+    <!-- User Management Tests -->
+    <test name="UserManagement Tests">
         <classes>
             <class name="Tests.UserAPITests"/>
         </classes>
     </test>
 
-    
+    <!-- Product Catalog Tests -->
+    <test name="Product Catalog Tests">
+        <classes>
+            <class name="Tests.ProductAPITests"/>
+        </classes>
+    </test>
+
+    <!-- Shopping Cart Tests -->
+    <test name="Shopping Cart Tests">
+        <classes>
+            <class name="Tests.CartAPITests"/>
+        </classes>
+    </test>
+
+    <!-- Checkout / Orders Tests -->
+    <test name="Checkout / Orders Tests">
+        <classes>
+            <class name="Tests.OrderAPITests"/>
+        </classes>
+    </test>
+
+    <!-- Optional: Listeners (if using a TestNG listener for reporting) -->
+    <!--
+    <listeners>
+        <listener class-name="utils.ExtentTestNGListener"/>
+    </listeners>
+    -->
 
 </suite>
