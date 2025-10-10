@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="19" passed="19" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-10-05T17:28:22 IST" name="FakeStoreAPI_TestSuite" finished-at="2025-10-05T17:28:33 IST" duration-ms="11406">
+  <suite started-at="2025-10-10T16:20:58 IST" name="FakeStoreAPI_TestSuite" finished-at="2025-10-10T16:21:19 IST" duration-ms="21212">
     <groups>
     </groups>
-    <test started-at="2025-10-05T17:28:22 IST" name="UserManagement Tests" finished-at="2025-10-05T17:28:25 IST" duration-ms="3839">
+    <test started-at="2025-10-10T16:20:58 IST" name="UserManagement Tests" finished-at="2025-10-10T16:21:03 IST" duration-ms="5545">
       <class name="Tests.UserAPITests">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.UserAPITests@38145825]" started-at="2025-10-05T17:28:22 IST" name="setup" finished-at="2025-10-05T17:28:22 IST" duration-ms="597" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.UserAPITests@38145825]" started-at="2025-10-10T16:20:58 IST" name="setup" finished-at="2025-10-10T16:20:59 IST" duration-ms="777" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="UM_01_ValidLogin()[pri:1, instance:Tests.UserAPITests@38145825]" started-at="2025-10-05T17:28:22 IST" name="UM_01_ValidLogin" finished-at="2025-10-05T17:28:24 IST" duration-ms="1496" status="PASS">
+        <test-method signature="UM_01_ValidLogin()[pri:1, instance:Tests.UserAPITests@38145825]" started-at="2025-10-10T16:20:59 IST" name="UM_01_ValidLogin" finished-at="2025-10-10T16:21:01 IST" duration-ms="1779" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UM_01_ValidLogin -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.UserAPITests@38145825]" started-at="2025-10-05T17:28:24 IST" name="getResult" finished-at="2025-10-05T17:28:24 IST" duration-ms="225" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.UserAPITests@38145825]" started-at="2025-10-10T16:21:01 IST" name="getResult" finished-at="2025-10-10T16:21:01 IST" duration-ms="254" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -26,11 +26,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="UM_02_InvalidLogin()[pri:2, instance:Tests.UserAPITests@38145825]" started-at="2025-10-05T17:28:24 IST" name="UM_02_InvalidLogin" finished-at="2025-10-05T17:28:25 IST" duration-ms="857" status="PASS">
+        <test-method signature="UM_02_InvalidLogin()[pri:2, instance:Tests.UserAPITests@38145825]" started-at="2025-10-10T16:21:01 IST" name="UM_02_InvalidLogin" finished-at="2025-10-10T16:21:03 IST" duration-ms="1749" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UM_02_InvalidLogin -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.UserAPITests@38145825]" started-at="2025-10-05T17:28:25 IST" name="getResult" finished-at="2025-10-05T17:28:25 IST" duration-ms="19" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.UserAPITests@38145825]" started-at="2025-10-10T16:21:03 IST" name="getResult" finished-at="2025-10-10T16:21:03 IST" duration-ms="17" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -41,11 +41,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="UM_03_NewUserRegistration()[pri:3, instance:Tests.UserAPITests@38145825]" started-at="2025-10-05T17:28:25 IST" name="UM_03_NewUserRegistration" finished-at="2025-10-05T17:28:25 IST" duration-ms="528" status="PASS">
+        <test-method signature="UM_03_NewUserRegistration()[pri:3, instance:Tests.UserAPITests@38145825]" started-at="2025-10-10T16:21:03 IST" name="UM_03_NewUserRegistration" finished-at="2025-10-10T16:21:03 IST" duration-ms="834" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UM_03_NewUserRegistration -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.UserAPITests@38145825]" started-at="2025-10-05T17:28:25 IST" name="getResult" finished-at="2025-10-05T17:28:25 IST" duration-ms="12" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.UserAPITests@38145825]" started-at="2025-10-10T16:21:03 IST" name="getResult" finished-at="2025-10-10T16:21:03 IST" duration-ms="12" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -58,17 +58,17 @@
         </test-method> <!-- getResult -->
       </class> <!-- Tests.UserAPITests -->
     </test> <!-- UserManagement Tests -->
-    <test started-at="2025-10-05T17:28:25 IST" name="Product Catalog Tests" finished-at="2025-10-05T17:28:28 IST" duration-ms="2842">
+    <test started-at="2025-10-10T16:21:04 IST" name="Product Catalog Tests" finished-at="2025-10-10T16:21:08 IST" duration-ms="4052">
       <class name="Tests.ProductAPITests">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.ProductAPITests@3214ee6]" started-at="2025-10-05T17:28:25 IST" name="setup" finished-at="2025-10-05T17:28:25 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.ProductAPITests@3214ee6]" started-at="2025-10-10T16:21:04 IST" name="setup" finished-at="2025-10-10T16:21:04 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="PC_01_AddProduct()[pri:1, instance:Tests.ProductAPITests@3214ee6]" started-at="2025-10-05T17:28:25 IST" name="PC_01_AddProduct" finished-at="2025-10-05T17:28:26 IST" duration-ms="773" status="PASS">
+        <test-method signature="PC_01_AddProduct()[pri:1, instance:Tests.ProductAPITests@3214ee6]" started-at="2025-10-10T16:21:04 IST" name="PC_01_AddProduct" finished-at="2025-10-10T16:21:04 IST" duration-ms="852" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PC_01_AddProduct -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.ProductAPITests@3214ee6]" started-at="2025-10-05T17:28:26 IST" name="getResult" finished-at="2025-10-05T17:28:26 IST" duration-ms="15" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.ProductAPITests@3214ee6]" started-at="2025-10-10T16:21:04 IST" name="getResult" finished-at="2025-10-10T16:21:04 IST" duration-ms="19" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -79,11 +79,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="PC_02_EditProduct()[pri:2, instance:Tests.ProductAPITests@3214ee6]" started-at="2025-10-05T17:28:26 IST" name="PC_02_EditProduct" finished-at="2025-10-05T17:28:27 IST" duration-ms="371" status="PASS">
+        <test-method signature="PC_02_EditProduct()[pri:2, instance:Tests.ProductAPITests@3214ee6]" started-at="2025-10-10T16:21:04 IST" name="PC_02_EditProduct" finished-at="2025-10-10T16:21:05 IST" duration-ms="788" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PC_02_EditProduct -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.ProductAPITests@3214ee6]" started-at="2025-10-05T17:28:27 IST" name="getResult" finished-at="2025-10-05T17:28:27 IST" duration-ms="9" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.ProductAPITests@3214ee6]" started-at="2025-10-10T16:21:05 IST" name="getResult" finished-at="2025-10-10T16:21:05 IST" duration-ms="8" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -94,11 +94,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="PC_03_GetAllProduct()[pri:3, instance:Tests.ProductAPITests@3214ee6]" started-at="2025-10-05T17:28:27 IST" name="PC_03_GetAllProduct" finished-at="2025-10-05T17:28:28 IST" duration-ms="924" status="PASS">
+        <test-method signature="PC_03_GetAllProduct()[pri:3, instance:Tests.ProductAPITests@3214ee6]" started-at="2025-10-10T16:21:05 IST" name="PC_03_GetAllProduct" finished-at="2025-10-10T16:21:06 IST" duration-ms="807" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PC_03_GetAllProduct -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.ProductAPITests@3214ee6]" started-at="2025-10-05T17:28:28 IST" name="getResult" finished-at="2025-10-05T17:28:28 IST" duration-ms="11" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.ProductAPITests@3214ee6]" started-at="2025-10-10T16:21:06 IST" name="getResult" finished-at="2025-10-10T16:21:06 IST" duration-ms="30" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -109,11 +109,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="PC_04_InvalidSearch()[pri:4, instance:Tests.ProductAPITests@3214ee6]" started-at="2025-10-05T17:28:28 IST" name="PC_04_InvalidSearch" finished-at="2025-10-05T17:28:28 IST" duration-ms="364" status="PASS">
+        <test-method signature="PC_04_InvalidSearch()[pri:4, instance:Tests.ProductAPITests@3214ee6]" started-at="2025-10-10T16:21:06 IST" name="PC_04_InvalidSearch" finished-at="2025-10-10T16:21:07 IST" duration-ms="737" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PC_04_InvalidSearch -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.ProductAPITests@3214ee6]" started-at="2025-10-05T17:28:28 IST" name="getResult" finished-at="2025-10-05T17:28:28 IST" duration-ms="12" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.ProductAPITests@3214ee6]" started-at="2025-10-10T16:21:07 IST" name="getResult" finished-at="2025-10-10T16:21:07 IST" duration-ms="12" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -124,11 +124,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="PC_05_DeleteProduct()[pri:5, instance:Tests.ProductAPITests@3214ee6]" started-at="2025-10-05T17:28:28 IST" name="PC_05_DeleteProduct" finished-at="2025-10-05T17:28:28 IST" duration-ms="328" status="PASS">
+        <test-method signature="PC_05_DeleteProduct()[pri:5, instance:Tests.ProductAPITests@3214ee6]" started-at="2025-10-10T16:21:07 IST" name="PC_05_DeleteProduct" finished-at="2025-10-10T16:21:08 IST" duration-ms="747" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PC_05_DeleteProduct -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.ProductAPITests@3214ee6]" started-at="2025-10-05T17:28:28 IST" name="getResult" finished-at="2025-10-05T17:28:28 IST" duration-ms="12" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.ProductAPITests@3214ee6]" started-at="2025-10-10T16:21:08 IST" name="getResult" finished-at="2025-10-10T16:21:08 IST" duration-ms="11" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -141,17 +141,17 @@
         </test-method> <!-- getResult -->
       </class> <!-- Tests.ProductAPITests -->
     </test> <!-- Product Catalog Tests -->
-    <test started-at="2025-10-05T17:28:28 IST" name="Shopping Cart Tests" finished-at="2025-10-05T17:28:31 IST" duration-ms="2480">
+    <test started-at="2025-10-10T16:21:08 IST" name="Shopping Cart Tests" finished-at="2025-10-10T16:21:14 IST" duration-ms="6231">
       <class name="Tests.CartAPITests">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.CartAPITests@68878f6d]" started-at="2025-10-05T17:28:28 IST" name="setup" finished-at="2025-10-05T17:28:28 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.CartAPITests@68878f6d]" started-at="2025-10-10T16:21:08 IST" name="setup" finished-at="2025-10-10T16:21:08 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="SC_01_AddToCart()[pri:1, instance:Tests.CartAPITests@68878f6d]" started-at="2025-10-05T17:28:28 IST" name="SC_01_AddToCart" finished-at="2025-10-05T17:28:29 IST" duration-ms="452" status="PASS">
+        <test-method signature="SC_01_AddToCart()[pri:1, instance:Tests.CartAPITests@68878f6d]" started-at="2025-10-10T16:21:08 IST" name="SC_01_AddToCart" finished-at="2025-10-10T16:21:09 IST" duration-ms="1086" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SC_01_AddToCart -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.CartAPITests@68878f6d]" started-at="2025-10-05T17:28:29 IST" name="getResult" finished-at="2025-10-05T17:28:29 IST" duration-ms="9" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.CartAPITests@68878f6d]" started-at="2025-10-10T16:21:09 IST" name="getResult" finished-at="2025-10-10T16:21:09 IST" duration-ms="9" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -162,11 +162,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="SC_02_UpdateQuantity()[pri:2, instance:Tests.CartAPITests@68878f6d]" started-at="2025-10-05T17:28:29 IST" name="SC_02_UpdateQuantity" finished-at="2025-10-05T17:28:29 IST" duration-ms="378" status="PASS">
+        <test-method signature="SC_02_UpdateQuantity()[pri:2, instance:Tests.CartAPITests@68878f6d]" started-at="2025-10-10T16:21:09 IST" name="SC_02_UpdateQuantity" finished-at="2025-10-10T16:21:09 IST" duration-ms="775" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SC_02_UpdateQuantity -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.CartAPITests@68878f6d]" started-at="2025-10-05T17:28:29 IST" name="getResult" finished-at="2025-10-05T17:28:29 IST" duration-ms="18" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.CartAPITests@68878f6d]" started-at="2025-10-10T16:21:09 IST" name="getResult" finished-at="2025-10-10T16:21:09 IST" duration-ms="12" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -177,11 +177,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="SC_03_RemoveFromCart()[pri:3, instance:Tests.CartAPITests@68878f6d]" started-at="2025-10-05T17:28:29 IST" name="SC_03_RemoveFromCart" finished-at="2025-10-05T17:28:30 IST" duration-ms="494" status="PASS">
+        <test-method signature="SC_03_RemoveFromCart()[pri:3, instance:Tests.CartAPITests@68878f6d]" started-at="2025-10-10T16:21:09 IST" name="SC_03_RemoveFromCart" finished-at="2025-10-10T16:21:11 IST" duration-ms="1308" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SC_03_RemoveFromCart -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.CartAPITests@68878f6d]" started-at="2025-10-05T17:28:30 IST" name="getResult" finished-at="2025-10-05T17:28:30 IST" duration-ms="18" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.CartAPITests@68878f6d]" started-at="2025-10-10T16:21:11 IST" name="getResult" finished-at="2025-10-10T16:21:11 IST" duration-ms="17" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -192,11 +192,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="SC_04_ApplyValidCoupon()[pri:4, instance:Tests.CartAPITests@68878f6d]" started-at="2025-10-05T17:28:30 IST" name="SC_04_ApplyValidCoupon" finished-at="2025-10-05T17:28:30 IST" duration-ms="379" status="PASS">
+        <test-method signature="SC_04_ApplyValidCoupon()[pri:4, instance:Tests.CartAPITests@68878f6d]" started-at="2025-10-10T16:21:11 IST" name="SC_04_ApplyValidCoupon" finished-at="2025-10-10T16:21:12 IST" duration-ms="807" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SC_04_ApplyValidCoupon -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.CartAPITests@68878f6d]" started-at="2025-10-05T17:28:30 IST" name="getResult" finished-at="2025-10-05T17:28:30 IST" duration-ms="10" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.CartAPITests@68878f6d]" started-at="2025-10-10T16:21:12 IST" name="getResult" finished-at="2025-10-10T16:21:12 IST" duration-ms="21" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -207,11 +207,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="SC_05_ApplyInvalidCoupon()[pri:5, instance:Tests.CartAPITests@68878f6d]" started-at="2025-10-05T17:28:30 IST" name="SC_05_ApplyInvalidCoupon" finished-at="2025-10-05T17:28:30 IST" duration-ms="334" status="PASS">
+        <test-method signature="SC_05_ApplyInvalidCoupon()[pri:5, instance:Tests.CartAPITests@68878f6d]" started-at="2025-10-10T16:21:12 IST" name="SC_05_ApplyInvalidCoupon" finished-at="2025-10-10T16:21:13 IST" duration-ms="1421" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SC_05_ApplyInvalidCoupon -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.CartAPITests@68878f6d]" started-at="2025-10-05T17:28:30 IST" name="getResult" finished-at="2025-10-05T17:28:30 IST" duration-ms="14" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.CartAPITests@68878f6d]" started-at="2025-10-10T16:21:13 IST" name="getResult" finished-at="2025-10-10T16:21:13 IST" duration-ms="4" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -222,11 +222,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="SC_06_EmptyCartCheckout()[pri:6, instance:Tests.CartAPITests@68878f6d]" started-at="2025-10-05T17:28:30 IST" name="SC_06_EmptyCartCheckout" finished-at="2025-10-05T17:28:31 IST" duration-ms="333" status="PASS">
+        <test-method signature="SC_06_EmptyCartCheckout()[pri:6, instance:Tests.CartAPITests@68878f6d]" started-at="2025-10-10T16:21:13 IST" name="SC_06_EmptyCartCheckout" finished-at="2025-10-10T16:21:14 IST" duration-ms="718" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SC_06_EmptyCartCheckout -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.CartAPITests@68878f6d]" started-at="2025-10-05T17:28:31 IST" name="getResult" finished-at="2025-10-05T17:28:31 IST" duration-ms="11" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.CartAPITests@68878f6d]" started-at="2025-10-10T16:21:14 IST" name="getResult" finished-at="2025-10-10T16:21:14 IST" duration-ms="7" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -239,17 +239,17 @@
         </test-method> <!-- getResult -->
       </class> <!-- Tests.CartAPITests -->
     </test> <!-- Shopping Cart Tests -->
-    <test started-at="2025-10-05T17:28:31 IST" name="Checkout / Orders Tests" finished-at="2025-10-05T17:28:33 IST" duration-ms="2193">
+    <test started-at="2025-10-10T16:21:14 IST" name="Checkout / Orders Tests" finished-at="2025-10-10T16:21:19 IST" duration-ms="5338">
       <class name="Tests.OrderAPITests">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.OrderAPITests@2c78324b]" started-at="2025-10-05T17:28:31 IST" name="setup" finished-at="2025-10-05T17:28:31 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.OrderAPITests@2c78324b]" started-at="2025-10-10T16:21:14 IST" name="setup" finished-at="2025-10-10T16:21:14 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="CO_01_ViewOrderHistory()[pri:1, instance:Tests.OrderAPITests@2c78324b]" started-at="2025-10-05T17:28:31 IST" name="CO_01_ViewOrderHistory" finished-at="2025-10-05T17:28:32 IST" duration-ms="820" status="PASS">
+        <test-method signature="CO_01_ViewOrderHistory()[pri:1, instance:Tests.OrderAPITests@2c78324b]" started-at="2025-10-10T16:21:14 IST" name="CO_01_ViewOrderHistory" finished-at="2025-10-10T16:21:15 IST" duration-ms="867" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CO_01_ViewOrderHistory -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.OrderAPITests@2c78324b]" started-at="2025-10-05T17:28:32 IST" name="getResult" finished-at="2025-10-05T17:28:32 IST" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.OrderAPITests@2c78324b]" started-at="2025-10-10T16:21:15 IST" name="getResult" finished-at="2025-10-10T16:21:15 IST" duration-ms="6" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -260,11 +260,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="CO_02_PlaceOrder()[pri:2, instance:Tests.OrderAPITests@2c78324b]" started-at="2025-10-05T17:28:32 IST" name="CO_02_PlaceOrder" finished-at="2025-10-05T17:28:32 IST" duration-ms="331" status="PASS">
+        <test-method signature="CO_02_PlaceOrder()[pri:2, instance:Tests.OrderAPITests@2c78324b]" started-at="2025-10-10T16:21:15 IST" name="CO_02_PlaceOrder" finished-at="2025-10-10T16:21:16 IST" duration-ms="1074" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CO_02_PlaceOrder -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.OrderAPITests@2c78324b]" started-at="2025-10-05T17:28:32 IST" name="getResult" finished-at="2025-10-05T17:28:32 IST" duration-ms="16" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.OrderAPITests@2c78324b]" started-at="2025-10-10T16:21:16 IST" name="getResult" finished-at="2025-10-10T16:21:16 IST" duration-ms="9" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -275,11 +275,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="CO_03_ReOrder()[pri:3, instance:Tests.OrderAPITests@2c78324b]" started-at="2025-10-05T17:28:32 IST" name="CO_03_ReOrder" finished-at="2025-10-05T17:28:32 IST" duration-ms="316" status="PASS">
+        <test-method signature="CO_03_ReOrder()[pri:3, instance:Tests.OrderAPITests@2c78324b]" started-at="2025-10-10T16:21:16 IST" name="CO_03_ReOrder" finished-at="2025-10-10T16:21:18 IST" duration-ms="2486" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CO_03_ReOrder -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.OrderAPITests@2c78324b]" started-at="2025-10-05T17:28:32 IST" name="getResult" finished-at="2025-10-05T17:28:32 IST" duration-ms="9" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.OrderAPITests@2c78324b]" started-at="2025-10-10T16:21:18 IST" name="getResult" finished-at="2025-10-10T16:21:18 IST" duration-ms="14" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -290,11 +290,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="CO_04_ReturnOrder()[pri:4, instance:Tests.OrderAPITests@2c78324b]" started-at="2025-10-05T17:28:32 IST" name="CO_04_ReturnOrder" finished-at="2025-10-05T17:28:33 IST" duration-ms="325" status="PASS">
+        <test-method signature="CO_04_ReturnOrder()[pri:4, instance:Tests.OrderAPITests@2c78324b]" started-at="2025-10-10T16:21:18 IST" name="CO_04_ReturnOrder" finished-at="2025-10-10T16:21:19 IST" duration-ms="444" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CO_04_ReturnOrder -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.OrderAPITests@2c78324b]" started-at="2025-10-05T17:28:33 IST" name="getResult" finished-at="2025-10-05T17:28:33 IST" duration-ms="8" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.OrderAPITests@2c78324b]" started-at="2025-10-10T16:21:19 IST" name="getResult" finished-at="2025-10-10T16:21:19 IST" duration-ms="6" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -305,11 +305,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="CO_05_InvalidCheckout()[pri:5, instance:Tests.OrderAPITests@2c78324b]" started-at="2025-10-05T17:28:33 IST" name="CO_05_InvalidCheckout" finished-at="2025-10-05T17:28:33 IST" duration-ms="331" status="PASS">
+        <test-method signature="CO_05_InvalidCheckout()[pri:5, instance:Tests.OrderAPITests@2c78324b]" started-at="2025-10-10T16:21:19 IST" name="CO_05_InvalidCheckout" finished-at="2025-10-10T16:21:19 IST" duration-ms="392" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CO_05_InvalidCheckout -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.OrderAPITests@2c78324b]" started-at="2025-10-05T17:28:33 IST" name="getResult" finished-at="2025-10-05T17:28:33 IST" duration-ms="7" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.OrderAPITests@2c78324b]" started-at="2025-10-10T16:21:19 IST" name="getResult" finished-at="2025-10-10T16:21:19 IST" duration-ms="6" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -320,7 +320,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="tearDownReport()[pri:0, instance:Tests.OrderAPITests@2c78324b]" started-at="2025-10-05T17:28:33 IST" name="tearDownReport" finished-at="2025-10-05T17:28:33 IST" duration-ms="6" status="PASS">
+        <test-method is-config="true" signature="tearDownReport()[pri:0, instance:Tests.OrderAPITests@2c78324b]" started-at="2025-10-10T16:21:19 IST" name="tearDownReport" finished-at="2025-10-10T16:21:19 IST" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownReport -->
